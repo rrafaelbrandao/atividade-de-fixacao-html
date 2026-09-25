@@ -1,5 +1,15 @@
-/*Retirando por padrão a margem e o espaçamento interno dos elementos*/
-* {
-    margin: 0;
-    padding: 0;
+h1 {
+    background-color: rgb(78, 255, 154);
+}
+
+h2 {
+    background-color: rgb(87, 78, 255);
+}
+
+h3 {
+    background-color: rgb(255, 104, 49);
+}
+
+article {
+    background-color: rgb(250, 232, 71);
 }
