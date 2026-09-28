@@ -1,19 +1,41 @@
+/*Estilização da Seção de HTML*/
+#secao-html h2 {
+    background-color: #4F46E5; /* Indigo moderno */
+    color: #FFFFFF;            /* Garante boa leitura no fundo escuro */
+}
+
+#secao-html h3 {
+    background-color: #F97316; /* Laranja suave/Coral */
+    color: #FFFFFF;
+}
+
+#secao-html article {
+    background-color: #FEF3C7; /* Amarelo/Creme pastel confortável */
+    color: #1F2937;
+}
+
+/*Estilização da Seção de CSS*/
+#secao-css h2 {
+    background-color: #059669; /* Verde Esmeralda elegante */
+    color: #FFFFFF;
+}
+
+#secao-css h3 {
+    background-color: #0284C7; /* Azul Menta/Oceano refinado */
+    color: #FFFFFF;
+}
+
+#secao-css article {
+    background-color: #E0E7FF; /* Azul/Lavanda bem claro e suave */
+    color: #1F2937;
+}
+
+/*Estilização em comum*/
 h1 {
-    background-color: rgb(78, 255, 154);
-}
-
-h2 {
-    background-color: rgb(87, 78, 255);
-}
-
-h3 {
-    background-color: rgb(255, 104, 49);
-}
-
-article {
-    background-color: rgb(250, 232, 71);
+    background-color: #0F172A; /* Slate escuro e sofisticado */
+    color: #FFFFFF;
 }
 
 table, thead, tbody, th, td {
-    border: solid 2px;
+    border: solid 2px #CBD5E1; /* Borda cinza suave em vez de preta dura */
 }
