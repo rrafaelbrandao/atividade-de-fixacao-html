@@ -13,3 +13,7 @@ h3 {
 article {
     background-color: rgb(250, 232, 71);
 }
+
+table, thead, tbody, th, td {
+    border: solid 2px;
+}
