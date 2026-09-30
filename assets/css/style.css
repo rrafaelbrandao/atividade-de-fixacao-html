@@ -1,4 +1,4 @@
-/*=======================Estilização em comum=============*/
+/*=======================Estilização em comum===============================*/
 
 h1 {
     text-align: center;
@@ -21,16 +21,6 @@ body {
 
 table, thead, tbody, th, td {
     border: solid 2.5px #CBD5E1; 
-}
-
-.estilo-do-codigo {
-    background-color: #F3EFEB;
-    color: #ff5722;
-    font-size: 20px;
-    border: 5px solid black;
-    border-radius: 10px;    /*Um pequeno arredondamento nas bordas*/
-    margin: 25px 70px;
-    
 }
 
 .estilo-da-tabela * { /*Aplicando o estilo para todos os descendentes*/
@@ -77,11 +67,7 @@ article p {
     margin-bottom: 15px;
 }
 
-#secao-css strong {
-    color: #059669;
-}
-
-/*===========Estilização da Seção de HTML================*/
+/*===========Estilização da Seção de HTML====================================================*/
 
 #secao-html h2 {
     background-color: #4F46E5; 
@@ -103,11 +89,24 @@ article p {
 }
 
 #secao-html .elemento-principal:hover + .elemento-descricao { /*Quando passar o mouse por cima de ".elemento-principal", trocar a cor da letra do elemento adjacente*/
-    color: #ff5722; 
+    color: #F97316; 
 }
 
+#secao-html strong {
+    color:  #F97316;
+}
 
-/*==============Estilização da Seção de CSS============*/
+#secao-html .estilo-do-codigo {
+    background-color: #F3EFEB;
+    color:  #F97316;
+    font-size: 20px;
+    border: 5px solid black;
+    border-radius: 10px;    /*Um pequeno arredondamento nas bordas*/
+    margin: 25px 70px;
+    
+}
+
+/*==============Estilização da Seção de CSS==================================================*/
 #secao-css h2 {
     background-color: #059669; 
     color: #FFFFFF;
@@ -130,4 +129,18 @@ article p {
 
 #secao-css .elemento-principal:hover + .elemento-descricao { /*Quando passar o mouse por cima de ".elemento-principal", trocar a cor da letra do elemento adjacente*/
     color: #059669; 
+}
+
+#secao-css strong {
+    color: #059669;
+}
+
+#secao-css .estilo-do-codigo {
+    background-color: #F3EFEB;
+    color: #059669;
+    font-size: 20px;
+    border: 5px solid black;
+    border-radius: 10px;    /*Um pequeno arredondamento nas bordas*/
+    margin: 25px 70px;
+    
 }
